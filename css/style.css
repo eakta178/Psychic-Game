@@ -1,0 +1,49 @@
+body{
+	background-image: url("../images/horoscop_7ec35a_05.jpg");
+	font-size: 20px;
+	color: red;
+}
+
+h1{
+	color: #0000FF;
+	font-weight: bolder;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	color: white;
+
+}
+#game
+{
+	font-weight: bold;
+	color: #FF4500;
+	text-align: center;
+	font-size: 2.0rem;
+}
+
+#result{
+	color: #6B8E23
+	font-size: 2.0rem;
+	text-align: center;
+	
+}
+
+#end{
+	text-align: center;
+	color: #FF8C00;
+	font-size: 2.5rem;
+	display: 2s;
+
+	animation-name: example;
+    animation-duration: 4s;
+
+
+
+}
+
+
+
+@keyframes example {
+    from {opacity: 1;}
+    to {opacity: 0;}
