@@ -1,39 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Psychic Game</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css\style.css">
-</head>
-<body>
-<div class="container">
-	<div class="row">
 
 
-		<div class="col-lg-offset-4 col-lg-4 animated flash">
-
-			<h1><em>The Psychic Game</em></h1>
-
-			<h2>Guess what letter I'm thinking of ??? </h2>
-
-			<div id="game">
-				<p>Wins: 0 <br> Losses: 0 <br> Guesses Left: 10<br> Your Guess so far: <br></p>
-
-			</div>
-
-
-
-			<div id="end">
-		
-
-			</div>
-		</div>
-	</div>
-</div>
-		
-
-
-<script type="text/javascript">
 	var computerChoices=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n','o','p','q','r','s','t','u','v','w', 'x', 'y', 'z']
 
 	var win = 0;
@@ -42,10 +8,9 @@
 	var yourGuess = [];
 
 
-
-
 	
-	function comptGuess() {
+	function comptGuess() 
+	{
 	
 		var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
     	console.log('computer: ' + computerGuess);
@@ -112,9 +77,3 @@
 
   
 
-</script>
-
-
-
-</body>
-</html>
